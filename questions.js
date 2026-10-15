@@ -92,6 +92,15 @@ const QUESTIONS = [
     explanation: "정약용이 도르래를 이용한 거중기를 설계했고, 정조 때 수원 화성 축성에 쓰임.",
     source: "한국민족문화대백과사전 「거중기」, https://encykorea.aks.ac.kr/Article/E0001891, 2026-10-09",
   },
+  {
+    id: "kh-11",
+    category: "한국사",
+    question: "958년 쌍기의 건의를 받아들여 과거제를 처음 실시한 고려의 왕은?",
+    choices: ["광종", "태조", "성종", "현종"],
+    answer: "광종",
+    explanation: "광종이 958년(광종 9)에 쌍기의 건의를 받아들여 과거제를 처음 실시함.",
+    source: "한국민족문화대백과사전 「과거」, https://encykorea.aks.ac.kr/Article/E0004562, 2026-10-15",
+  },
 
   // 세계지리
   {
@@ -183,6 +192,15 @@ const QUESTIONS = [
     answer: "앙카라",
     explanation: "앙카라는 1923년 튀르키예 공화국의 수도가 됨. 이스탄불은 가장 큰 도시이지만 수도가 아님.",
     source: "Britannica \"Ankara, capital of Turkey\", https://www.britannica.com/summary/Ankara, 2026-10-09",
+  },
+  {
+    id: "wg-11",
+    category: "세계지리",
+    question: "아마존강이 흘러드는 대양은?",
+    choices: ["대서양", "태평양", "인도양", "북극해"],
+    answer: "대서양",
+    explanation: "안데스산맥에서 시작한 아마존강은 대서양으로 흘러듦.",
+    source: "Britannica \"Amazon River\", https://www.britannica.com/place/Amazon-River, 2026-10-15",
   },
 
   // 과학
@@ -276,6 +294,15 @@ const QUESTIONS = [
     explanation: "제임스 왓슨과 프랜시스 크릭이 1953년 『네이처』에 DNA 이중 나선 모형을 발표함.",
     source: "Britannica \"Double helix\", https://www.britannica.com/science/double-helix, 2026-10-09",
   },
+  {
+    id: "sc-11",
+    category: "과학",
+    question: "전기 저항의 SI 단위는?",
+    choices: ["옴(Ω)", "볼트(V)", "암페어(A)", "와트(W)"],
+    answer: "옴(Ω)",
+    explanation: "1옴은 1V의 전위차에서 1A의 전류가 흐르는 저항(1Ω = 1V/A)임. 볼트는 전위차, 암페어는 전류, 와트는 일률의 단위임.",
+    source: "NIST \"NIST Guide to the SI, Chapter 4: The Two Classes of SI Units and the SI Prefixes\", https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes, 2026-10-15",
+  },
 
   // 예술과 문화
   {
@@ -367,5 +394,14 @@ const QUESTIONS = [
     answer: "파블로 피카소",
     explanation: "피카소가 1937년 파리 만국박람회 스페인관을 위해 그렸고 지금은 레이나 소피아 미술관에 있음.",
     source: "Museo Reina Sofía \"Guernica\", https://www.museoreinasofia.es/en/collections/artwork/guernica-0/, 2026-10-09",
+  },
+  {
+    id: "ac-11",
+    category: "예술과 문화",
+    question: "1877년 모스크바 볼쇼이 극장에서 초연된 발레 〈백조의 호수〉의 작곡가는?",
+    choices: ["표트르 차이콥스키", "세르게이 라흐마니노프", "니콜라이 림스키코르사코프", "이고르 스트라빈스키"],
+    answer: "표트르 차이콥스키",
+    explanation: "차이콥스키가 작곡한 발레로, 1877년 볼쇼이 극장에서 초연됨.",
+    source: "Britannica \"Swan Lake\", https://www.britannica.com/topic/Swan-Lake-ballet-by-Tchaikovsky, 2026-10-15",
   },
 ];
