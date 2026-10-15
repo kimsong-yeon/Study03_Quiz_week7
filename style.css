@@ -74,6 +74,23 @@ button:disabled {
   word-break: break-all;
 }
 
+#screen-leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+#screen-leaderboard th,
+#screen-leaderboard td {
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#screen-leaderboard h3 {
+  margin: 20px 0 8px;
+}
+
 .result-score {
   font-size: 2em;
   font-weight: bold;

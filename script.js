@@ -221,6 +221,43 @@ function showResult() {
   showScreen("result");
 }
 
+function renderLeaderboard() {
+  const board = loadLeaderboard();
+  const container = document.getElementById("leaderboard-tables");
+  container.replaceChildren();
+  for (const mode of ["speed", "hint"]) {
+    for (const category of CATEGORIES) {
+      const title = document.createElement("h3");
+      title.textContent = `${MODES[mode].name} ${category}`;
+      container.appendChild(title);
+      const list = board[`${mode}|${category}`];
+      if (!Array.isArray(list) || list.length === 0) {
+        const empty = document.createElement("p");
+        empty.className = "note";
+        empty.textContent = "기록 없음";
+        container.appendChild(empty);
+        continue;
+      }
+      const total = QUESTIONS.filter(q => q.category === category).length;
+      const table = document.createElement("table");
+      const head = table.createTHead().insertRow();
+      for (const label of ["순위", "날짜", "점수"]) {
+        const th = document.createElement("th");
+        th.textContent = label;
+        head.appendChild(th);
+      }
+      const body = table.createTBody();
+      list.forEach((entry, i) => {
+        const row = body.insertRow();
+        row.insertCell().textContent = `${i + 1}`;
+        row.insertCell().textContent = entry.date;
+        row.insertCell().textContent = formatScore(entry.score, total);
+      });
+      container.appendChild(table);
+    }
+  }
+}
+
 function retryWrong() {
   if (state.firstScore === null) {
     state.firstScore = { score: state.score, total: state.questions.length };
@@ -245,6 +282,11 @@ function init() {
     stopTimer();
     showScreen("start");
   });
+  document.getElementById("leaderboard-button").addEventListener("click", () => {
+    renderLeaderboard();
+    showScreen("leaderboard");
+  });
+  document.getElementById("leaderboard-home-button").addEventListener("click", () => showScreen("start"));
   showScreen("start");
 }
 
