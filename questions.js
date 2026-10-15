@@ -101,6 +101,15 @@ const QUESTIONS = [
     explanation: "광종이 958년(광종 9)에 쌍기의 건의를 받아들여 과거제를 처음 실시함.",
     source: "한국민족문화대백과사전 「과거」, https://encykorea.aks.ac.kr/Article/E0004562, 2026-10-15",
   },
+  {
+    id: "kh-12",
+    category: "한국사",
+    question: "1145년 고려 인종의 명을 받아 『삼국사기』를 편찬해 바친 인물은?",
+    choices: ["김부식", "일연", "이규보", "정도전"],
+    answer: "김부식",
+    explanation: "김부식이 인종의 명을 받아 1145년(인종 23)에 50권의 『삼국사기』를 편찬함.",
+    source: "우리역사넷 「삼국사기」, https://contents.history.go.kr/front/tg/view.do?treeId=0100&levelId=tg_002_0080, 2026-10-15",
+  },
 
   // 세계지리
   {
@@ -201,6 +210,15 @@ const QUESTIONS = [
     answer: "대서양",
     explanation: "안데스산맥에서 시작한 아마존강은 대서양으로 흘러듦.",
     source: "Britannica \"Amazon River\", https://www.britannica.com/place/Amazon-River, 2026-10-15",
+  },
+  {
+    id: "wg-12",
+    category: "세계지리",
+    question: "뉴질랜드의 수도는?",
+    choices: ["웰링턴", "오클랜드", "크라이스트처치", "더니든"],
+    answer: "웰링턴",
+    explanation: "1865년 정부 소재지가 오클랜드에서 웰링턴으로 옮겨지면서 웰링턴이 수도가 됨.",
+    source: "Britannica \"Wellington\", https://www.britannica.com/place/Wellington-New-Zealand, 2026-10-15",
   },
 
   // 과학
@@ -303,6 +321,15 @@ const QUESTIONS = [
     explanation: "1옴은 1V의 전위차에서 1A의 전류가 흐르는 저항(1Ω = 1V/A)임. 볼트는 전위차, 암페어는 전류, 와트는 일률의 단위임.",
     source: "NIST \"NIST Guide to the SI, Chapter 4: The Two Classes of SI Units and the SI Prefixes\", https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes, 2026-10-15",
   },
+  {
+    id: "sc-12",
+    category: "과학",
+    question: "1543년 『천구의 회전에 관하여』에서 태양 중심설을 내놓은 천문학자는?",
+    choices: ["니콜라우스 코페르니쿠스", "요하네스 케플러", "티코 브라헤", "클라우디오스 프톨레마이오스"],
+    answer: "니콜라우스 코페르니쿠스",
+    explanation: "폴란드의 천문학자로, 그의 이론은 뒤에 케플러, 갈릴레이, 뉴턴의 연구에 큰 영향을 줌.",
+    source: "Britannica \"Nicolaus Copernicus\", https://www.britannica.com/biography/Nicolaus-Copernicus, 2026-10-15",
+  },
 
   // 예술과 문화
   {
@@ -403,5 +430,14 @@ const QUESTIONS = [
     answer: "표트르 차이콥스키",
     explanation: "차이콥스키가 작곡한 발레로, 1877년 볼쇼이 극장에서 초연됨.",
     source: "Britannica \"Swan Lake\", https://www.britannica.com/topic/Swan-Lake-ballet-by-Tchaikovsky, 2026-10-15",
+  },
+  {
+    id: "ac-12",
+    category: "예술과 문화",
+    question: "1893년에 그린 〈절규〉(오슬로 국립박물관 소장)의 화가는?",
+    choices: ["에드바르 뭉크", "구스타프 클림트", "에곤 실레", "바실리 칸딘스키"],
+    answer: "에드바르 뭉크",
+    explanation: "뭉크가 글로도 남긴, 하늘이 핏빛으로 물든 산책길의 불안을 그린 작품으로, 1994년 도난당했다가 되찾음.",
+    source: "Nasjonalmuseet \"Edvard Munch, The Scream\", https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939, 2026-10-15",
   },
 ];
